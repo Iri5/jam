@@ -175,6 +175,18 @@
         width: 100%;
         text-align: center;
     }
+    .comand {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        img {
+            height: 150px;
+            width: 150px;
+            border-radius: 100px; /* Радиус скругления */
+            border: 3px solid #6c122f; /* Параметры рамки */
+            //align-self: center;
+        }
+    }
     #title-timer {
         margin-bottom: 0;
         padding-bottom: 10px;
@@ -418,6 +430,12 @@
 }
 @media screen and (width < 400px) {
     .violet {
+        .comand {
+            img {
+                height: 100px;
+                width: 100px;
+            }
+        }
         .special_guest {
             padding-left: 10px;
             padding-right: 10px;
@@ -504,6 +522,12 @@
             padding-right: 50px;
             padding-left: 50px;
         }
+        .comand {
+            img {
+                height: 100px;
+                width: 100px;
+            }
+        }
         .hero {
             margin-top: 30px;
             display: flex;
@@ -523,6 +547,12 @@
             .date {
                 font-size: 24px;
                 //width: 265px;
+            }
+        }
+        .comand {
+            img {
+                height: 100px;
+                width: 100px;
             }
         }
         .special_guest {
@@ -600,6 +630,12 @@
             .date {
                 font-size: 24px;
                 //width: 265px;
+            }
+        }
+        .comand {
+            img {
+                height: 100px;
+                width: 100px;
             }
         }
         .special_guest {
@@ -686,6 +722,12 @@
             .date {
                 font-size: 24px;
                 //width: 265px;
+            }
+        }
+        .comand {
+            img {
+                height: 100px;
+                width: 100px;
             }
         }
         .special_guest {
@@ -1329,14 +1371,13 @@
             #send_form {
                 font-size: 16px;
             }
-           
+
             margin-top: 50px;
             width: 100%;
             iframe {
                 width: 100%;
                 height: 1120px;
-            
-        }
+            }
         }
     }
 }
